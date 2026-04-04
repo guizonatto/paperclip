@@ -1,8 +1,3 @@
----
-trigger: model_decision
-description: Apply when a new LLM CLI adapter needs to be added in Paperclip.
----
-
 # Rule: LLM Adapter Standards
 
 Activation: Always On

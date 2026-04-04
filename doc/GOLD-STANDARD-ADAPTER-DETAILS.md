@@ -43,7 +43,7 @@ This document details the purpose of each file in the Paperclip Gold Standard Ad
   ```
 
 ### src/server/index.ts
-- **Function:** Server-side entry point for the adapter. Exposés main handlers (execution, parsing, skills, quota).
+- **Function:** Server-side entry point for the adapter. Exposes main handlers (execution, parsing, skills, quota).
 - **Mandatory implementation:**
   ```ts
   export * from "./execute.js";

@@ -63,20 +63,20 @@ pnpm dev
 
 This project uses formal **Workspace Rules** to ensure architectural consistency, security, and operational excellence. These rules are automatically applied by AI coding assistants.
 
-AI contributors MUST adhere to the rules defined in [`.agents/rules/`](file:///c:/github/paperclip/.agents/rules/):
+AI contributors MUST adhere to the rules defined in [`.agents/rules/`](.agents/rules/):
 
-- **Company Scoping** ([`rule-company-scope.md`](file:///c:/github/paperclip/.agents/rules/rule-company-scope.md)): All entities must belong to a company.
-- **Contract Sync** ([`rule-contract-sync.md`](file:///c:/github/paperclip/.agents/rules/rule-contract-sync.md)): Keep DB, Shared, Server, and UI layers in sync.
-- **Task Invariants** ([`rule-task-invariants.md`](file:///c:/github/paperclip/.agents/rules/rule-task-invariants.md)): Protect single-assignee and atomic checkout.
-- **Activity Logging** ([`rule-activity-logging.md`](file:///c:/github/paperclip/.agents/rules/rule-activity-logging.md)): Mandatory audit trails for mutations.
-- **Secret Management** ([`rule-secret-management.md`](file:///c:/github/paperclip/.agents/rules/rule-secret-management.md)): Redaction and `company_secrets` references.
-- **Database Workflow** ([`rule-db-workflow.md`](file:///c:/github/paperclip/.agents/rules/rule-db-workflow.md)): Guidelines for Drizzle migrations.
-- **CLI Standards** ([`rule-cli-standards.md`](file:///c:/github/paperclip/.agents/rules/rule-cli-standards.md)): Consistent flags and profiles.
-- **UI Expectations** ([`rule-ui-expectations.md`](file:///c:/github/paperclip/.agents/rules/rule-ui-expectations.md)): Premium design and error handling.
-- **Plan Docs** ([`rule-plan-docs.md`](file:///c:/github/paperclip/.agents/rules/rule-plan-docs.md)): Centralized and dated `doc/plans/`.
-- **Definition of Done** ([`rule-definition-of-done.md`](file:///c:/github/paperclip/.agents/rules/rule-definition-of-done.md)): Verification before hand-off.
-- **Contribution Standards** ([`rule-contributing.md`](file:///c:/github/paperclip/.agents/rules/rule-contributing.md)): "Thinking Path" and visual proof.
+- **Company Scoping** ([`rule-company-scope.md`](.agents/rules/rule-company-scope.md)): All entities must belong to a company.
+- **Contract Sync** ([`rule-contract-sync.md`](.agents/rules/rule-contract-sync.md)): Keep DB, Shared, Server, and UI layers in sync.
+- **Task Invariants** ([`rule-task-invariants.md`](.agents/rules/rule-task-invariants.md)): Protect single-assignee and atomic checkout.
+- **Activity Logging** ([`rule-activity-logging.md`](.agents/rules/rule-activity-logging.md)): Mandatory audit trails for mutations.
+- **Secret Management** ([`rule-secret-management.md`](.agents/rules/rule-secret-management.md)): Redaction and `company_secrets` references.
+- **Database Workflow** ([`rule-db-workflow.md`](.agents/rules/rule-db-workflow.md)): Guidelines for Drizzle migrations.
+- **CLI Standards** ([`rule-cli-standards.md`](.agents/rules/rule-cli-standards.md)): Consistent flags and profiles.
+- **UI Expectations** ([`rule-ui-expectations.md`](.agents/rules/rule-ui-expectations.md)): Premium design and error handling.
+- **Plan Docs** ([`rule-plan-docs.md`](.agents/rules/rule-plan-docs.md)): Centralized and dated `doc/plans/`.
+- **Definition of Done** ([`rule-definition-of-done.md`](.agents/rules/rule-definition-of-done.md)): Verification before hand-off.
+- **Contribution Standards** ([`rule-contributing.md`](.agents/rules/rule-contributing.md)): "Thinking Path" and visual proof.
 
 ## 6. Definition of Done
 
-A change is considered complete when it satisfies the requirements in [`rule-definition-of-done.md`](file:///c:/github/paperclip/.agents/rules/rule-definition-of-done.md) and aligns with the contribution standards in [`rule-contributing.md`](file:///c:/github/paperclip/.agents/rules/rule-contributing.md).
+A change is considered complete when it satisfies the requirements in [`rule-definition-of-done.md`](.agents/rules/rule-definition-of-done.md) and aligns with the contribution standards in [`rule-contributing.md`](.agents/rules/rule-contributing.md).
